@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
-body
+html, body
 {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+	overflow-x: hidden;
+	background-color: #9c4e7e3;
 }
 
 nav
@@ -104,6 +106,9 @@ section.sect3
 section.content
 {
 	padding: 100px;
+	display: table;
+	width:100%;
+
 }
 
 section.content div
@@ -111,4 +116,28 @@ section.content div
 	margin: 0;
 	padding: 0;
 	font-size: 2em;
+	display: table-cell;
+}
+
+section.content2
+{
+	padding: 100px;
+}
+
+section.content2 div
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+section.content2 img
+{
+	float: right;
+}
+
+section.content2 h1
+{
+	font-size: 3em;
+	color: #2463d7;
 }
