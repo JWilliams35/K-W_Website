@@ -141,3 +141,18 @@ section.content2 h1
 	font-size: 3em;
 	color: #2463d7;
 }
+
+section.content .hidden 
+{
+	display: none;
+}
+
+section.content .unhidden
+{
+	display: block;
+}
+
+section.sect1 button
+{
+	margin-top: 200px;
+}
